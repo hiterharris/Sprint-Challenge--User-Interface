@@ -94,15 +94,51 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* margin-bottom: 20px; */
+    border-bottom: 1px dashed black;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+}
+
+.about-text {
+    margin-bottom: 2%;
+    padding: 1%;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-middle-content div {
+    width: 40%;
+    margin: 5%;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content div button {
+    padding: 3% 10%;
+    margin: 5% 2%;;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-middle-content div h1 {
+    margin-top: 4%;
 }
 
 .middle-content h2 {
@@ -202,6 +238,10 @@ p {
     justify-content: space-around;
 }
 
+.about-bottom-content {
+    margin: 0% 5% 5%;
+}
+
 .bottom-content .text-container {
     padding-right: 4%;
 }
@@ -228,9 +268,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
- /* ---------- hiter-harris CSS ----------  */
-
-
-
  
