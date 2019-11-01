@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.hero-img {
+    margin-top: 5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +97,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,7 +119,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,10 +126,84 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box2 {
+    background-color: gold;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box3 {
+    background-color: cadetblue;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box4 {
+    background-color: coral;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box5 {
+    background-color: crimson;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box6 {
+    background-color: forestgreen;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box7 {
+    background-color: darkorchid;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box8 {
+    background-color: hotpink;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box9 {
+    background-color: indigo;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box10 {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.about-bottom-content {
+    margin: 0% 5% 5%;
 }
 
 .bottom-content .text-container {
@@ -144,3 +232,139 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+ 
+/* ABOUT PAGE */
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+}
+
+.about-text {
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-middle-content div {
+    width: 40%;
+    margin: 5%;
+    border-bottom: 1px dashed black;
+}
+
+.about-middle-content div button {
+    padding: 3% 10%;
+    margin: 5% 2%;;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about-middle-content div h1 {
+    margin-top: 4%;
+}
+
+/* PRODUCTS PAGE */
+.products-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.products-container header {
+    border-bottom: 1px dashed black;
+}
+
+.products-header-img {
+    text-align: center;
+    width: 98%;
+    margin: 4% 0%;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.product {
+    width: 45%;
+    margin: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.product img {
+    height: 250px;
+    width: 300px;
+}
+
+.product button {
+    padding: 3% 10%;
+    margin: 5% 2%;;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background:rgb(255, 134, 4); */
+    background:#4266B2;
+    color: white;
+
+}
+
+.product button:hover {
+    padding: 3% 10%;
+    margin: 5% 2%;
+    background: rgb(101, 176, 101);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: all .9s;
+    z-index: -1;
+    width: 90%;
+    text-align: center;
+}
+
+.form-container {
+    background: #4266B2;
+    width: 60%;
+    height: 100vh;
+}
+
+.form-container header {
+    padding: 1%;
+    background: #4266B2;
+}
+
+.contact-nav a {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+form h2 {
+    color: white;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+    margin: 5%;
+}
+
+form button {
+    padding: 1% 4%;
+    /* margin: 5% 2%; */
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(101, 176, 101);
+    color: white;
+}
+
