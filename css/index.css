@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,88 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+ /* ---------- hiter-harris CSS ----------  */
+ nav {
+     /* display: flex; */
+ }
+
+ .nav-links {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .hero-img {
+     margin-top: 5%;
+ }
+
+ .box1 {
+    background-color: teal;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box2 {
+    background-color: gold;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box3 {
+    background-color: cadetblue;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box4 {
+    background-color: coral;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box5 {
+    background-color: crimson;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box6 {
+    background-color: forestgreen;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box7 {
+    background-color: darkorchid;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box8 {
+    background-color: hotpink;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box9 {
+    background-color: indigo;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
+}
+
+.box10 {
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 300;
+    padding: 4% 3%;
 }
