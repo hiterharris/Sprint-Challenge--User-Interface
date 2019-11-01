@@ -71,6 +71,21 @@ p {
     margin: 0 auto;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.hero-img {
+    margin-top: 5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,54 +126,7 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-}
-
- /* ---------- hiter-harris CSS ----------  */
- nav {
-     /* display: flex; */
- }
-
- .nav-links {
-     display: flex;
-     justify-content: space-between;
- }
-
- .hero-img {
-     margin-top: 5%;
- }
-
- .box1 {
+.box1 {
     background-color: teal;
     color: white;
     font-weight: 300;
@@ -227,3 +195,42 @@ footer nav a {
     font-weight: 300;
     padding: 4% 3%;
 }
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ /* ---------- hiter-harris CSS ----------  */
+
+
+
+ 
